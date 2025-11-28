@@ -1,0 +1,24 @@
+html{height: 100%;}
+body{ margin: 0; background: url(../image/bg_icon.jpg); font-family:'Helvetica Neue', 'STHeiti','Microsoft YaHei', Helvetica,Arial,sans-serif; font-size:14px; line-height: 140%; color: #666;}
+ul, ol, li,dt,dd{margin:0; padding:0; list-style:none;}
+img{border: 0; vertical-align:middle}
+a,button{ text-decoration:none; outline:none; -webkit-tap-highlight-color:rgba(0,0,0,0)}
+a,h1, h2, h3, h4, h5, h6{ color: #333333;}
+a:focus,a:hover,a:active{ text-decoration:none; color: #FF9900;}
+h1{ font-size:22px; line-height: 28px;}
+
+*{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
+:after,:before{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
+.container:before,.container:after,.row:before,.row:after,.clearfix:before, .clearfix:after{ display: table; content: " "; clear: both;}
+
+.container { width: 990px; position: relative; padding-right: 15px; padding-left: 15px; margin: 50px auto 0;}
+.row{position: relative; margin-right: -15px; margin-left: -15px; background-color: #fff; border-radius: 5px; border: 1px solid #eee;}
+
+@media (max-width: 1023px){
+    .container{ width: 100%; margin: 20px auto 0; padding-left: 35px; padding-right: 35px;}
+}
+
+@media (max-width:767px){
+    .container{ width: 100%; margin: 0; padding-left: 15px; padding-right: 15px; border: 0; border-radius: 0;}
+    .row{ border: 0; border-radius: 0;}
+}
