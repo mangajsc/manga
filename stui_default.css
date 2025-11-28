@@ -1,6 +1,4 @@
 /*!
- * Copyright 2016-2018 http://v.shoutu.cn
- * Email 726662013@qq.com,admin@shoutu.cn
  */
 
 
@@ -227,4 +225,5 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #FF9900;}
 	.stui-page li.page-item a{ padding: 5px 15px;}
 	.stui-page-text{ text-align: left;}
 	.stui-page-text a,.stui-page-text em,.stui-page-text span{ margin-right: 5px; margin-bottom: 5px;} 
+
 }
